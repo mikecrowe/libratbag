@@ -1,0 +1,4 @@
+[Device]
+Name=Easterntimes Tech T7
+DeviceMatch=usb:258a:1007
+Driver=sinowealth7

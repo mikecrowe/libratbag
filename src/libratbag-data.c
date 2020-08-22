@@ -52,6 +52,7 @@ enum driver {
 	LOGITECH_G600,
 	STEELSERIES,
 	SINOWEALTH,
+	SINOWEALTH7,
 };
 
 struct data_hidpp20 {
@@ -269,6 +270,7 @@ static const struct driver_map {
 	{ LOGITECH_G600, "logitech_g600", NULL},
 	{ STEELSERIES, "steelseries", init_data_steelseries },
 	{ SINOWEALTH, "sinowealth", NULL },
+	{ SINOWEALTH7, "sinowealth7", NULL },
 };
 
 const char *

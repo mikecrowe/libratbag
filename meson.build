@@ -176,6 +176,7 @@ src_libratbag = [
 	'src/driver-gskill.c',
 	'src/driver-steelseries.c',
 	'src/driver-sinowealth.c',
+	'src/driver-sinowealth7.c',
 	'src/driver-test.c',
 	'src/libratbag.c',
 	'src/libratbag.h',
@@ -349,6 +350,7 @@ data_files = files(
 	'data/devices/steelseries-sensei-raw.device',
 	'data/devices/glorious-model-d.device',
 	'data/devices/glorious-model-o.device',
+	'data/devices/etpc-t7.device',
 )
 
 install_data(data_files,
